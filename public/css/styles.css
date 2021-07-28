@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+p{
+    font-size: 12px;
+}
+.descuento {
+    font-size: 16px;
+}
+
+main h4{
+    font-size: 16 px;
+}
+
+.burger-menu{
+    background-color: #03264C;
+    color: white;
+    font-size: 24px;
+}
+
+footer h4{
+    line-height: 20px;
+}
+
+footer p{
+    line-height: 3px;
+}
+
+footer i{
+    margin-bottom: 10 px;
+    font-size: 2em;
+    color: #03264C;
+
+}
+
+#lupa{
+    background-color: white;
+}
+
+   @media (min-width: 460px){
+
+   }
+   @media (min-width: 768px){
+    
+   }
+   

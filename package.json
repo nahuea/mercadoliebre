@@ -1,0 +1,16 @@
+{
+  "name": "clase-11-html",
+  "version": "1.0.0",
+  "description": "Proyecto Digital House de HTML prueba",
+  "main": "app.js",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nahuea",
+  "license": "ISC"
+}
