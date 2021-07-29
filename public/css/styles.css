@@ -1,14 +1,56 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #EAC926;
+
 }
 
+nav{
+    display: none;
+}
+#logo{
+    height: 300px;
+    width: 50vw;
+}
+section div{
+    width: 50vw;
+}
+
+#primera{
+    display: flex;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    width: 90vw;
+    margin:auto;
+}
+
+.caja{
+    border-top: solid 1px #ebebeb;
+    text-align: start;
+}
+.caja h4{
+    font-size: 16px;
+    display: none;
+}
 h3{
     font-size: 24px;
 }
 
+.linea{
+    display: flex;
+}
+article{
+    background-color: white;
+    margin:10px;
+    padding: 15px;
+
+}
 .precio {
     font-size: 18px;
+    display: flex;
+    flex-grow: 0.3;
 }
 
 p{
@@ -16,18 +58,20 @@ p{
 }
 .descuento {
     font-size: 16px;
-}
-
-main h4{
-    font-size: 16 px;
+    display: flex;
+    flex-grow: 0.7;
 }
 
 .burger-menu{
     background-color: #03264C;
     color: white;
     font-size: 24px;
+    display: none;
 }
 
+footer {
+    text-align: center;
+}
 footer h4{
     line-height: 20px;
 }
@@ -43,14 +87,35 @@ footer i{
 
 }
 
+#carrito{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-size: 2em;
+    color: #39b54a;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 #lupa{
     background-color: white;
 }
 
-   @media (min-width: 460px){
 
-   }
-   @media (min-width: 768px){
-    
-   }
-   
+    @media (min-width: 361px){
+        .caja h4{
+            display: block;
+        }
+        .producto{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+         nav{
+          display:block;
+      }
+    }
+    @media (max-width: 769px){
+        .burger-menu{
+            display:block;
+        }
+    }
