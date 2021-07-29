@@ -88,9 +88,6 @@ footer i{
 }
 
 #carrito{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; 
     font-size: 2em;
     color: #39b54a;
     display: flex;
