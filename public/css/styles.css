@@ -90,11 +90,19 @@ footer i{
 }
 
 #carrito{
-    font-size: 2em;
-    color: #39b54a;
-    display: flex;
-    justify-content: flex-end;
-
+  display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #5cf871;
+color:#5cf871;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+text-align: center;
 }
 
 #lupa{
