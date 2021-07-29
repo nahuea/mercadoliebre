@@ -63,10 +63,12 @@ p{
 }
 
 .burger-menu{
-    background-color: #03264C;
+   background-color: #03264C;
     color: white;
     font-size: 24px;
+    width:30px;
     display: none;
+    margin: auto;
 }
 
 footer {
