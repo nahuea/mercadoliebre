@@ -81,17 +81,23 @@ main {
     display: block;
 }
 
-.producto{
+main section{
   margin: auto;
+  background-color: white;
+}
+
+.producto{
+  background-color: white;
+  margin: 10px 0;
+  padding: 15px;
 }
 
 .caja{
     border-top: solid 1px #ebebeb;
-    text-align: start;
-}
-.caja h4{
-    font-size: 16px;
-    display: none;
+    padding: 15px;
+    text-align:start;
+    position: relative;
+    display: flex;
 }
 
 #carrito{
@@ -110,32 +116,29 @@ top: -15px;
 text-align: center;
 }
 
-
 h3{
-    font-size: 24px;
+  font-size: 24px;
+  margin: 30px 0
 }
 
-.linea{
-    display: flex;
-}
-article{
-    background-color: white;
-    margin:10px;
-    padding: 15px;
-
-}
 .precio {
     font-size: 18px;
-    display: flex;
-    flex-grow: 0.3;
+    line-height: 0px;
+    display: block;
+    flex-grow: 1.3;
 }
 
 .descuento {
-    font-size: 16px;
-    display: flex;
-    flex-grow: 0.7;
+    font-size:16px;
+    color: #39b54a;
+    display: block;
+    flex-grow: 1.7;
 }
 
+.caja h4{
+  font-size: 16px;
+  display: none;
+}
 
 footer {
     text-align: center;
