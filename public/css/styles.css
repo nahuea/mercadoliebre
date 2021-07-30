@@ -4,26 +4,85 @@ body {
 
 }
 
-nav{
-    display: none;
+p{
+    font-size: 12px;
 }
-#logo{
-    height: 300px;
-    width: 50vw;
-}
-section div{
-    width: 50vw;
+
+.cabecera{
+  background-color: #EAC926;
+  padding: 20px;
 }
 
 #primera{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#primera div{
+    font-size: 17px;
+    font-weight: 400;
+    flex-grow: 0.5;
+}
+
+#subtitulo{
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#listas{
+  display: none;
+}
+
+#listas ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#listas{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+#listas a{
+  text-decoration: none;
+  color: #222222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+#logo{
+    flex-grow: 0.5;
+}
+
+.burger-menu{
+   background-color: #03264C;
+    color: white;
+    font-size: 24px;
+    width: 30px;
+    display: none;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.banner{
+  width:100%;
 }
 
 main {
     text-align: center;
     width: 90vw;
     margin:auto;
+    display: block;
+}
+
+.producto{
+  margin: auto;
 }
 
 .caja{
@@ -34,6 +93,24 @@ main {
     font-size: 16px;
     display: none;
 }
+
+#carrito{
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #5cf871;
+color:#5cf871;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+text-align: center;
+}
+
+
 h3{
     font-size: 24px;
 }
@@ -53,23 +130,12 @@ article{
     flex-grow: 0.3;
 }
 
-p{
-    font-size: 12px;
-}
 .descuento {
     font-size: 16px;
     display: flex;
     flex-grow: 0.7;
 }
 
-.burger-menu{
-   background-color: #03264C;
-    color: white;
-    font-size: 24px;
-    width:30px;
-    display: none;
-    margin: auto;
-}
 
 footer {
     text-align: center;
@@ -89,21 +155,6 @@ footer i{
 
 }
 
-#carrito{
-  display: block;
-font-size: 16px;
-padding: 5px;
-width: 30px;
-height: 30px;
-border: 1px solid #5cf871;
-color:#5cf871;
-background-color: #FFF;
-border-radius: 50%;
-position: absolute;
-right: 20px;
-top: -15px;
-text-align: center;
-}
 
 #lupa{
     background-color: white;
